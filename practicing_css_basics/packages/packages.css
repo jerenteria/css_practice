@@ -1,0 +1,55 @@
+ * {
+    text-decoration: none;
+}
+
+.plan {
+    border: solid black 4px;
+    margin-top: 32px;
+    border-left: none;
+    width: 80%;
+    padding: 20px;
+    background: #d5ffdc;
+}
+
+.clearfix {
+    /* clears float to keep surrouding elements in their place */
+    clear: both;
+}
+
+.plan:hover {
+    border: solid red 2px;
+}
+
+.plan h1 {
+    color: black;
+}
+
+.plan h2 {
+    color: gray;
+}
+
+.plan p {
+    color: green;
+    border: 2px green;
+    background: white;
+    padding: 20px;
+}
+
+.free--plan {
+    float: right;
+    border-left: 2px solid black;
+    border-right: none;
+    text-align: right;
+}
+
+.plan--highlighted {
+    background: darkgreen;
+}
+
+.plan--highlighted h1 {
+    color: white;
+}
+
+.plan--highlighted h2 {
+    color: gray;
+}
